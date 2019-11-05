@@ -26,8 +26,8 @@ class MainFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val button = view.findViewById<Button>(R.id.button)
-        button.setOnClickListener { view -> Log.d("MainFragment", "hit button") }
+//        val button = view.findViewById<Button>(R.id.button)
+//        button.setOnClickListener { view -> Log.d("MainFragment", "hit button") }
     }
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
